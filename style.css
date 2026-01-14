@@ -69,6 +69,7 @@ body {
   box-shadow: 0 0 20px rgba(250, 103, 67, 0.3);
   border: 2px solid #f0f0f0;
   border-radius: 300px;
+  animation: balancar 4s ease-in-out infinite;
 }
 
 .localizacao {
@@ -169,6 +170,11 @@ body {
 }
 
 /*************************** SEÇÃO DO CONTATO ************************** */
+
+.link-paginas {
+  color: #f0f0f0;
+  text-decoration: none;
+}
 .contato-titulo {
   margin-top: 50px;
   text-align: center;
@@ -206,4 +212,17 @@ body {
 .contato-card:hover {
   box-shadow: 0 10px 20px rgb(37, 37, 37, 0.2);
   transform: translateY(-20px) scale(1.1);
+}
+
+/*************************** SEÇÃO DA ANIMAÇÃO ************************** */
+
+@keyframes balancar {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-20px);
+  }
 }
