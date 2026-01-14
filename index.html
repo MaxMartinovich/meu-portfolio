@@ -4,6 +4,150 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Maximiliano Gabriel Martinovich</title>
+    <link href="fontawesome/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/brands.min.css" rel="stylesheet" />
+    <link href="fontawesome/css/all.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <!-- Parte de cima da página(header)-->
+    <header>
+      <!--Menu de navegação e suas respectivas listas/ordem-->
+      <nav class="navegacao">
+        <ul class="lista">
+          <li>
+            <a href="#inicio">Início</a>
+          </li>
+          <li>
+            <a a href="#sobre">Sobre Mim</a>
+          </li>
+          <li>
+            <a href="#projetos">Projetos</a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Parte principal do Site-->
+      <main id="inicio" class="principal">
+        <div>
+          <img
+            src="minha-foto.jpg"
+            alt="Foto de Maximiliano Gabriel Martinovich"
+            class="minha-foto"
+          />
+          <p>
+            BASED IN BRASILIA, BRAZIL<img src="brasil.png" class="bandeira" />
+          </p>
+          <h1>Maximiliano Gabriel Martinovich</h1>
+          <p>Desenvolvedor Front-End</p>
+        </div>
+      </main>
+
+      <!-- Seção SOBRE MIM-->
+      <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+          <p class="sobre-descricao">
+            Sou programador front-end, com experiência na criação de sites
+            utilizando HTML, CSS e JavaScript. Tenho foco em desenvolver
+            interfaces responsivas, funcionais e com boa experiência para o
+            usuário, sempre buscando código limpo e boas práticas no
+            desenvolvimento web.
+          </p>
+        </div>
+      </section>
+
+      <!-- Seção sobre MEUS PROJETOS-->
+      <!-- Seção sobre o To do APP-->
+      <section id="projetos" class="projetos">
+        <h2 class="projetos-titulo">Meus Projetos</h2>
+        <div class="projetos-caixa">
+          <div class="projetos-card">
+            <img
+              src="to-do-app.png"
+              alt="Projeto To Do"
+              class="projetos-imagem"
+            />
+            <h3 class="titulos-projetos">To Do App</h3>
+            <p class="texto-projetos">
+              To Do App desenvolvido com foco em organização e produtividade.
+              Permite criar, editar e remover tarefas de forma simples e
+              intuitiva, utilizando HTML, CSS e JavaScript, com interface
+              responsiva e interação dinâmica
+            </p>
+          </div>
+
+          <!-- Seção sobre o Youtube Clone-->
+          <div class="projetos-card">
+            <img
+              src="youtube-clone.png"
+              alt="Projeto youtube clone"
+              class="projetos-imagem"
+            />
+            <h3 class="titulos-projetos">Youtube Clone</h3>
+            <p class="texto-projetos">
+              YouTube Clone desenvolvido com foco na reprodução visual da
+              interface da plataforma. Projeto voltado para HTML e CSS,
+              explorando estruturação de layout, estilização, responsividade e
+              organização de componentes, sem funcionalidades em JavaScript.
+            </p>
+          </div>
+
+          <!-- Seção sobre a calculadora de IMC-->
+          <div class="projetos-card">
+            <img
+              src="calculadora-imc.png"
+              alt="calculadora imc"
+              class="projetos-imagem"
+            />
+            <h3 class="titulos-projetos">Calculadora IMC</h3>
+            <p class="texto-projetos">
+              Calculadora de IMC desenvolvida para calcular o Índice de Massa
+              Corporal de forma automática e precisa. O projeto utiliza HTML,
+              CSS e JavaScript para realizar os cálculos, validar os dados
+              inseridos e exibir o resultado de forma dinâmica, com interface
+              simples e responsiva.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção CONTATO-->
+      <section id="contato" class="contato">
+        <h2 class="contato-titulo">Contatos</h2>
+        <div class="contato-caixa">
+          <!-- Contato GITHUB-->
+          <div class="contato-card">
+            <i class="fa-brands fa-github"></i>
+            <h2 class="titulo-contato">Github</h2>
+            <p class="texto-contato">@maxmartinovich</p>
+          </div>
+
+          <!-- Contato Linkedin-->
+          <div class="contato-card">
+            <i class="fa-brands fa-linkedin"></i>
+            <h2 class="titulo-contato">Linkedin</h2>
+            <p class="texto-contato">@maxmartinovich</p>
+          </div>
+
+          <!-- Contato EMAIL-->
+          <div class="contato-card">
+            <i class="fa-regular fa-envelope"></i>
+            <h2 class="titulo-contato">E-mail</h2>
+            <p class="texto-contato">maxi.martinovich@gmail.com</p>
+          </div>
+
+          <!-- Contato WPP-->
+          <div class="contato-card">
+            <i class="fa-brands fa-whatsapp"></i>
+            <h2 class="titulo-contato">Whatsapp</h2>
+            <p class="texto-contato">(61) 98485-6828</p>
+          </div>
+        </div>
+      </section>
+    </header>
+  </body>
 </html>
