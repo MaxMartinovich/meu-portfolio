@@ -1,3 +1,4 @@
+/*************************** SEÇÃO DAS TAGS DO CORPO INTEIRO ************************** */
 * {
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -9,18 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 
-.bandeira {
-  padding-left: 5px;
-  padding-bottom: 0px;
-  width: 22px;
-  background-size: cover;
-}
-
 body {
   background-color: #121212;
   color: #f0f0f0;
 }
 
+/*************************** SEÇÃO DA HEADER E MENU DE NAVEGAÇÃO ***************************/
 .navegacao {
   position: fixed;
   background: rgba(4, 5, 5, 0.4);
@@ -60,6 +55,7 @@ body {
   width: 100%;
 }
 
+/*************************** SEÇÃO DO MAIN, INCLUI MINHA FOTO, LOCALIZACAO, MEU NOME E O QUE EU FAÇO ************************** */
 .principal {
   min-height: 100vh;
   display: flex;
@@ -80,7 +76,14 @@ body {
   margin: 30px 0px 0px 0px;
 }
 
-h1 {
+.bandeira {
+  padding-left: 5px;
+  padding-bottom: 0px;
+  width: 22px;
+  background-size: cover;
+}
+
+.meu-nome {
   font-size: 45px;
   font-weight: 500;
   margin: 20px;
@@ -90,6 +93,8 @@ h1 {
 .ocupacao {
   font-size: 18px;
 }
+
+/*************************** SEÇÃO SOBRE MIM ************************** */
 
 .sobre,
 .projetos {
@@ -117,6 +122,7 @@ h1 {
   color: #f0f0f0;
 }
 
+/* ************************** SEÇÃO DOS PROJETOS ***************************/
 .projetos-titulo {
   text-align: center;
   font-size: 45px;
@@ -162,6 +168,7 @@ h1 {
   font-size: 13px;
 }
 
+/*************************** SEÇÃO DO CONTATO ************************** */
 .contato-titulo {
   margin-top: 50px;
   text-align: center;
