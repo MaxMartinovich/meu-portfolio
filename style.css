@@ -1,9 +1,113 @@
 * {
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .bandeira {
-  width: 18px;
+  padding-left: 5px;
+  padding-bottom: 0px;
+  width: 22px;
   background-size: cover;
+}
+
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+}
+
+.navegacao {
+  position: fixed;
+  background: rgba(4, 5, 5, 0.4);
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  padding: 24px;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+}
+
+.links {
+  text-decoration: none;
+  color: #f0f0f0;
+  font-weight: 500;
+  position: relative;
+  padding: 8px 0;
+}
+
+.links::after {
+  content: "";
+  height: 2px;
+  width: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(90deg, #ff4b1f, #fa6743);
+  transition: width 0.6s ease;
+}
+
+.links:hover::after {
+  width: 100%;
+}
+
+.principal {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.minha-foto {
+  width: 300px;
+  height: 300px;
+  box-shadow: 0 0 20px rgba(250, 103, 67, 0.3);
+  border: 2px solid #f0f0f0;
+  border-radius: 300px;
+}
+
+.localizacao {
+  font-size: 18px;
+  margin: 30px 0px 0px 0px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 500;
+  margin: 20px;
+  color: #fa6743;
+}
+
+.ocupacao {
+  font-size: 18px;
+}
+
+.sobre {
+  padding: 96px 32px;
+}
+
+.sobre-titulo {
+  text-align: center;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+
+.sobre-caixa {
+  padding: 32px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 16px;
+  border: 1px solid;
+}
+
+.sobre-descricao {
 }
