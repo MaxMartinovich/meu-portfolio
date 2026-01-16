@@ -226,3 +226,77 @@ body {
     transform: translateY(-20px);
   }
 }
+
+@media (max-width: 768px) {
+  /* MENU */
+  .lista {
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 0;
+  }
+
+  .navegacao {
+    padding: 12px 8px;
+  }
+
+  .links {
+    font-size: 14px;
+  }
+  /* MAIN */
+  .minha-foto {
+    width: 200px;
+    height: 200px;
+  }
+
+  .meu-nome {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .ocupacao,
+  .localizacao {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  /* SOBRE */
+  .sobre-titulo {
+    font-size: 28px;
+  }
+
+  .sobre-descricao {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  /* PROJETOS */
+  .projetos-titulo {
+    font-size: 28px;
+  }
+
+  .projetos-caixa {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .texto-projetos {
+    font-size: 14px;
+    padding: 0 10px 20px;
+    text-align: center;
+  }
+
+  /* CONTATO */
+  .contato-titulo {
+    font-size: 28px;
+  }
+
+  .contato-caixa {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 150px;
+  }
+
+  .titulo-contato {
+    font-size: 20px;
+  }
+}
